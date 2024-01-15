@@ -16,6 +16,10 @@
   }
 }
 
+h1 {
+  color: #111827;
+  text-transform: uppercase;
+}
 /* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -25,3 +29,12 @@
     )
     rgb(var(--background-start-rgb));
 } */
+
+/* body {
+  background-image: url("https://i.pinimg.com/originals/d2/ff/79/d2ff7947a88679fef9cdc595507d94a4.jpg");
+  background-size: cover;
+} */
+
+body {
+  min-height: 100vh;
+}

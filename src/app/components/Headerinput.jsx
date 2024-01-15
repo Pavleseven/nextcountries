@@ -1,16 +1,21 @@
 "use client";
 import { useState } from "react";
 import { headerSearch } from "../context";
+import SubmitButton from "./SubmitButton";
+
 function Headerinput() {
-  const [searchCountry, setSearchCountry] = useState("");
+  const [searchCountryValue, setSearchCountry] = useState("");
   return (
     <>
-      <headerSearch.Provider value={{ searchCountry, setSearchCountry }}>
+      <headerSearch.Provider value={{ searchCountryValue, setSearchCountry }}>
         <input
           type="text"
-          value={searchCountry}
+          value={searchCountryValue}
           onChange={(e) => setSearchCountry(e.target.value)}
+          className="header-input"
+          placeholder="search for country"
         />
+        <SubmitButton />
       </headerSearch.Provider>
     </>
   );
