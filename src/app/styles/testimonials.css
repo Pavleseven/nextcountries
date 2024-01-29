@@ -1,0 +1,15 @@
+.testimonials {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  width: 100%;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 1.5rem;
+  justify-content: center;
+}
+
+.testimonial-card {
+  /* display: flex; */
+  width: 25%;
+}

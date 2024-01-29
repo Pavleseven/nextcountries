@@ -19,3 +19,5 @@ export const singleCountry = async function (q) {
 
   return await res.json();
 };
+
+export const fakeArray = [1, 2, 3, 4, 5, 6];
